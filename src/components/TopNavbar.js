@@ -6,8 +6,7 @@ export default function TopNavbar() {
     return (
         <div>
             <Navbar bg="light" expand="lg" >
-                <Navbar.Brand style={{margin: "5px 0 0 20px"}} href="#home">
-        <img src="[https://www.instacart.com/assets/beetstrap/brand/2…ba270a11a7e9b56fc261371bda42ea7a5abeff3492e1c.svg]" /></Navbar.Brand>
+                <Navbar.Brand style={{margin: "5px 0 0 20px"}} href="#home"><img src="https://www.instacart.com/assets/beetstrap/brand/2…ba270a11a7e9b56fc261371bda42ea7a5abeff3492e1c.svg" /> </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto"></Nav>
